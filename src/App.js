@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+// import { Hero, Cards, Navbar } from './components';
+// import Footer from './components/Footer';
+// import ButtonWithText from './components/Demo1';
+import Profile from './components/Demo1';
+import ClickCoordinates from './components/Demo1'
+import Example from './components/Demo1';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        {/* <Navbar />
+        <Hero />
+        <Hero />
+        <Cards />
+        <Footer /> */}
+        {/* <ButtonWithText /> */}
+        <Profile name="Ansar 1" />
+        <Profile name="Ansar 2" />
+        <Profile name="Ansar 3" />
+        {/* <ClickCoordinates /> */}
+        {/* <Example /> */}
+      </>
     </div>
   );
 }
